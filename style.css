@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow|Bungee+Hairline|Kavivanar|Roboto+Mono|Cutive+Mono');
+@import url('https://fonts.googleapis.com/css?family=Aldrich|Alfa+Slab+One|Archivo+Black|Cousine|Italiana|Julius+Sans+One|Playfair+Display+SC|Poiret+One|Press+Start+2P|Suranna');
+* {
+	box-sizing: border-box;
+}
+body, html {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+video, img {
+	/* background-image: url(img/profile2.jpg); */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	min-width: 100%;
+	min-height: 100%;
+	/* width: auto;
+	height: auto; */
+	z-index: 1;
+	overflow: hidden;
+
+}
+
+.container {
+	position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100vh;
+overflow:hidden;
+}
+
+
+a {
+	text-decoration: none;
+	color: #d6d6d6;
+	line-height: -1.9em;
+}
+
+
+
+h1 {
+	margin: 0;
+}
+
+
+
+
+
+
+#child {
+	z-index: 2;
+	font-family:'Italiana', helvetica sans-serif ;
+	/* Aldrich|Archivo+Black|Cousine|Italiana|Julius+Sans+One|Playfair+Display+SC|Poiret+One|Press+Start+2P|Suranna */
+	line-height: .7em;
+	color: white;
+	text-shadow: #494949 1px 1px 1px;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	position: absolute ;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+
+#headerMain {
+	/* height: 200px; */
+	font-size: 3em;
+	text-transform: uppercase;
+	
+}
+
+#headerMain2 {
+	font-size: 1.0em;
+}
+
+@media (max-width: 600px) {
+
+	#headerMain {
+		font-size: 1.2em; 
+	}
+
+}
